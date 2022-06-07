@@ -1,0 +1,42 @@
+*{
+    color: #000;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+.container-principal{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+    background-color: #FFC100;
+    border-radius: 25px;
+    font-size: 24px;
+}
+.container-principal h1{
+    
+    font-weight: bold;
+} 
+
+.container-principal p{
+    padding-top: 50px;
+    font-size: 24px;
+} 
+
+.container-aside{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 800px;
+    padding-left: 30px;
+}
+#principalimage{
+    position: absolute;
+    width: 550px;
+    right: 200px;
+    top: 0px
+}

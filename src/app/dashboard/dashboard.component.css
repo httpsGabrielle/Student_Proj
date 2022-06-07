@@ -1,0 +1,16 @@
+.dashboard{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.dashboard-itens{
+    margin-left: 50px;
+    color: #1F2025;
+    font-size: 36px;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+}
+.dashboard-itens:hover{
+    border-bottom: 2px solid #FFC100;
+}

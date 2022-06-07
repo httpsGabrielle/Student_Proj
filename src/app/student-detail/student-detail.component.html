@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="containt-details">
+      <h1>Editar estudantes</h1>
+      <div *ngIf="student">
+        <div class="studentdetails-style">
+          <img src="{{student.image}}" class="image">
+          <h2>{{student.name}}</h2>    
+          <div>RA: {{student.RA}}</div>
+          <div>
+            <label for="student-name">Nome: </label>
+            <input id="student-name" [(ngModel)]="student.name" placeholder="name">
+          </div>
+          <div>
+            <label for="student-idade">Idade: </label>
+            <input id="student-idade" [(ngModel)]="student.idade" placeholder="idade">
+          </div>
+          <div>
+            <label for="student-curso">Curso: </label>
+            <input id="student-curso" [(ngModel)]="student.curso" placeholder="idade">
+          </div>
+          <div>
+            <label for="student-semestre">Semestre: </label>
+            <input id="student-semestre" [(ngModel)]="student.semestre" placeholder="idade">
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="containt">
+    <app-messages></app-messages>
+  </div>
+</div>

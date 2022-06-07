@@ -1,0 +1,19 @@
+<div class="main-container">
+    <div class="left-aside">
+      <h1 id="principal-title">Lista de professores</h1>
+      <ul class="teachers">
+        <li *ngFor="let teacher of teachers">
+          <button [class.selected]="teacher === selectedTeacher" type="button" (click)="onSelect(teacher)" class="card-teachers">
+              <img class="image"src="{{teacher.image}}">
+            <span class="name">{{teacher.name}}</span>
+            <span class="complement">{{teacher.curso}}</span>
+            <span class="RA">RA: {{teacher.RA}}</span>
+          </button>
+        </li>
+      </ul>
+    </div>
+  <div class="right-aside">
+    <app-teacher-detail [teacher]="selectedTeacher"></app-teacher-detail>
+  </div>
+  </div>
+  

@@ -1,0 +1,17 @@
+main{
+    margin: 10px;
+}
+h1{
+    margin-top:10px
+}
+.clear{
+    border: none; 
+    background-color: #da4453;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.title-container{
+    display: flex;
+    justify-content: center;
+}

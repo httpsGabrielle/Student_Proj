@@ -1,0 +1,52 @@
+#principal-title{
+    margin: 30px 30px;
+}
+.main-container{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.right-aside{
+    padding: 30px;
+    border-left: 1px solid #dadfea;
+}
+.card-teachers{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    margin: 24px;
+    padding: 20px;
+    border: 1px solid #d9dfe9;
+    border-radius: 25px;
+    background-color: #fff;
+}
+.card-teachers:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.teachers{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.image{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.name{
+    font-size: 25px;
+    font-weight: bold;
+}
+.complement{
+    color: #5a6170;
+}
+.RA{
+    align-self: flex-end;
+    color:#d9dfe9;
+}
