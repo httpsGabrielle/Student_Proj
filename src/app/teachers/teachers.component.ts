@@ -19,7 +19,7 @@ export class TeachersComponent implements OnInit {
   }
   onSelect(teacher: Teacher): void {
     this.selectedTeacher = teacher;
-    this.messageService.add(`Id do professor selecionado=${teacher.RA}`);
+    this.messageService.add(`Professor selecionado: ${teacher.RA}`);
     }
     getTeachers(): void {
       this.teacherService.getTeachers()

@@ -20,7 +20,7 @@ export class StudentsComponent implements OnInit {
 
   onSelect(student: Student): void {
   this.selectedStudent = student;
-  this.messageService.add(`Id do estudante selecionado=${student.RA}`);
+  this.messageService.add(`Estudante selecionado:${student.RA}`);
   }
   getStudents(): void {
     this.studentService.getStudents()

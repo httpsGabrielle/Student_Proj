@@ -9,6 +9,7 @@ import { MessagesComponent } from './messages/messages.component';
 import { TeachersComponent } from './teachers/teachers.component';
 import { TeacherDetailComponent } from './teacher-detail/teacher-detail.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
