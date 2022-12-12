@@ -1,6 +1,5 @@
 # Students Project
-
-Projeto desenvolvido em Angular 13.3.5.
+Esse repositório é destinado para a matéria de Programação para Web da Fatec de Itu e irá conter a tarefa de Angular, referente ao Tour of Heroes parte 1. O projeto foi desenvolvido em Angular 13.3.5.
 
 ## Development server
 
